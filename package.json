@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "main": "src/stellar-hd-wallet.js",
   "files": [
-    "lib"
+    "src"
   ],
   "scripts": {
     "test": "mocha --require babel-register",
