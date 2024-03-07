@@ -1,7 +1,7 @@
 import has from "lodash/has";
 import bip39 from "bip39";
 import {derivePath} from "./hd-key";
-import {Keypair} from "stellar-base";
+import {Keypair} from "@stellar/stellar-sdk";
 
 const ENTROPY_BITS = 256; // = 24 word mnemonic
 
